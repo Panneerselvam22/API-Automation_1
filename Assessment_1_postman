@@ -1,0 +1,39 @@
+
+Assessment_1
+
+→ Post operation
+  POST https://dev129425.service-now.com/api/now/table/incident [200 OK, 6.14kB, 3.3s]
+  √  Status code is 200
+
+→ GET operation
+  GET https://dev129425.service-now.com/api/now/table/incident/e982bf1cc3aa511091df2e5ce001318f [200 OK, 6.03kB, 1087ms]
+  √  Status code is 200
+
+→ Put operation
+  PUT https://dev129425.service-now.com/api/now/table/incident/e982bf1cc3aa511091df2e5ce001318f [200 OK, 6.03kB, 1044ms]
+
+→ Patch operation
+  PATCH https://dev129425.service-now.com/api/now/table/incident/e982bf1cc3aa511091df2e5ce001318f [200 OK, 6.03kB, 1067ms]
+
+→ Delete operation
+  DELETE https://dev129425.service-now.com/api/now/table/incident/e982bf1cc3aa511091df2e5ce001318f [200 OK, 6.03kB, 1107ms]
+
+┌─────────────────────────┬─────────────────────┬─────────────────────┐
+│                         │            executed │              failed │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              iterations │                   1 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│                requests │                   5 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│            test-scripts │                   2 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│      prerequest-scripts │                   0 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              assertions │                   2 │                   0 │
+├─────────────────────────┴─────────────────────┴─────────────────────┤
+│ total run duration: 7.9s                                            │
+├─────────────────────────────────────────────────────────────────────┤
+│ total data received: 29.52kB (approx)                               │
+├─────────────────────────────────────────────────────────────────────┤
+│ average response time: 1536ms [min: 1044ms, max: 3.3s, s.d.: 919ms] │
+└─────────────────────────────────────────────────────────────────────┘
